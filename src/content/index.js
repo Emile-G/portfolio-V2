@@ -46,4 +46,134 @@ export default {
         ],
         desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only`,
     },
+    studies: {
+        study: [
+            {
+                diploma: 'High School Diploma',
+                years: '2017-2018',
+                school: 'Lycée Chaptal',
+                address: '6 Allée Chaptal, 22000 Saint-Brieuc',
+                website: 'http://lycee-chaptal-saintbrieuc.fr/',
+                fullDiplomaName: 'High school diploma in science and technology in sustainable development with a major in computer science.',
+            },
+            {
+                diploma: '2 Year Technical Diploma',
+                years: '2018-2020',
+                school: ' Lycée Charles de Foucauld',
+                address: '32 Rue de Quimper, 29200 Brest',
+                website: 'https://www.estran-brest.fr/charles-de-foucauld/lenseignement-superieur/bts-sio/',
+                fullDiplomaName: '2 year technical diploma in web and web application developing.',
+            },
+            {
+                diploma: 'Bachelor',
+                years: '2020-2021',
+                school: 'EPSI',
+                address: 'Rue Fernand Robert, 35000 Rennes',
+                website: 'https://www.epsi.fr/',
+                fullDiplomaName: 'Bachelor in application conception and application programing.',
+            },
+        ]
+    },
+    professionalExp: {
+        experiences: [
+            {
+                postes: 'PHP Developer',
+                dates: '27th May 2019 - 21th June 2019',
+                workplace: 'IMT Atlantique',
+                rank: 'Internship',
+                address: '665 Avenue du Technopôle, 29280 Plouzané',
+                website: 'https://imt-atlantique.fr/',
+                task1: 'Writing a documentation on how to use the Google API in PHP.',
+                task2: 'Writing a documentation on how to use and create a REST API in the PHP framework "Laravel".',
+                techUsed1: 'PHP 7.3',
+                techUsed2: 'Laravel : PHP Framework',
+            },
+            {
+                postes: 'Web Application Developer',
+                dates: '06th January 2020 - 21th February 2020',
+                workplace: 'IMT Atlantique',
+                rank: 'Internship',
+                address: '665 Avenue du Technopôle, 29280 Plouzané',
+                website: 'https://imt-atlantique.fr/',
+                task1: 'Writing a documentation on the installation and utilization of the Javascript framework "Vue.JS".',
+                task2: 'Linking the Vue.JS framework to a Laravel application while documenting it.',
+                techUsed1: 'Vue.JS : Javascript Framework',
+                techUsed2: 'Laravel : PHP Framework',
+            },
+            {
+                postes: 'PHP Developer',
+                dates: '01st January 2021 - 21th June 2021',
+                workplace: 'Solocal',
+                rank: 'Apprenticeship',
+                address: '5 ZAC Champs Blancs, 35510 Cesson-Sévigné',
+                website: 'https://solocal.com/',
+                task1: 'Migration of a PHP application from PHP 5.4 to 7.3.',
+                task2: 'Building and create a KPI management application in a Symfony project (Maia).',
+                techUsed1: 'PHP 7.3 / MySQL / PDO',
+                techUsed2: 'Symfony : PHP Framework',
+            },
+        ]
+    },
+    personnalExp: {
+        experiences: [
+            {
+                postes: 'Backend Developer',
+                type: 'Personnal project',
+                project: 'GIE Project',
+                website: 'https://site-gie.chrisblnc.fr/',
+                desc: 'The "GIE" project is an Arma III team with a player base ranging form 20 years old to 50 years old. The website plan is to let us manage our team while acting as a presentation board. (You can find me on it under the nickname "Jack Shinzao").',
+                techUsed: 'Laravel : PHP Framework',
+            },
+        ]
+    },
+    myProject: {
+        projects: [
+            {
+                name: '"GIE" Project',
+                desc: 'In-Developement project, 3 developer actively working on it (2 backends developer, 1 frontend developer). Project based on the Laravel framework.',
+                link: 'https://site-gie.chrisblnc.fr/',
+            },
+            {
+                name: 'Mail Server',
+                desc: 'Creation of a mail server with a graphical interface (RainLoop), anti-spam and mail signature with SPF/DKIM(OpenDKIM)/DMARC. Server based on a Debian VPS.',
+                link: '',
+            },
+            {
+                name: 'Generation of a complete web architecture under docker',
+                desc: 'First approach of Docker, and application containerization under Linux. Project consisting of a sandbox, part of production, as well as all continuous development tools.',
+                link: '',
+            },
+            {
+                name: '"Mesguen" Project (Light Client)',
+                desc: 'Project aiming to create a lightweight client based on a specification provides. This web application aims to manage the various tours of the company "Mesguen". (Project in no case related to the company "Mesguen" and any name affiliated to Mesguen).',
+                link: 'https://github.com/Emile-G/PPE_Mesguen/',
+            },
+            {
+                name: '"Mesguen" Project (Heavy Client)',
+                desc: 'Iteration of the project "Mesguen" light in heavy client. Based on VB.Net code and an Oracle database. It is an application that aims to manage the various tours of the company "Mesguen". (Project in no case related to the company "Mesguen" and any name affiliated to Mesguen).',
+                link: 'https://github.com/Emile-G/PPE_Mesguen_Lourd/',
+            },
+            {
+                name: 'Staff tool for "Synesia"',
+                desc: 'Tool to manage warnings from different players, project based on HTML/PHP linked to a MySQL database. (Basic CRUD locked by an authentication system).',
+                link: '',
+            },
+        ]
+    },
+    links: {
+        socialMedia: [
+            {
+                title: 'LinkedIn',
+                link: 'https://www.linkedin.com/in/emile-g/',
+            },
+            {
+                title: 'Github',
+                link: 'https://github.com/Emile-G',
+            },
+            {
+                title: 'Twitter',
+                link: 'https://twitter.com/EmileGardent',
+            },
+        ]
+    },
 };
