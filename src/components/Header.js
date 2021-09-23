@@ -42,7 +42,7 @@ export default function Header() {
                         </span>
                     </h1>
                     <Link to="stack" smooth={true}>
-                        <button className="bg-indigo-500 px-10 py-3 text-xl uppercase rounded-lg mt-10 animate-float">
+                        <button style={{background: '#E63946'}} className="px-10 py-3 text-xl uppercase rounded-lg mt-10 animate-float">
                             {content.header.btnText}
                         </button>
                     </Link>

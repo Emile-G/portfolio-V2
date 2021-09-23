@@ -4,7 +4,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 export default function Stack() {
     return (
-        <div className="min-h-screen flex flex-col items-center justify-center  font-robotoSlab" style={{background: '#edf2fb'}}
+        <div className="min-h-screen flex flex-col items-center justify-center font-robotoSlab" style={{background: '#edf2fb'}}
         id="stack">
             <h1 className="text-5xl font-bold">The tech I use</h1>
             <div className="flex flex-wrap justify-center mt-10">
