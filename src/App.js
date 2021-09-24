@@ -1,6 +1,7 @@
 import Navigation from "./components/Navigation";
 import Header from "./components/Header";
 import Stack from "./components/Stack";
+import Studies from "./components/Links";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navigation />
       <Header />
       <Stack />
+      <Studies />
     </div>
   );
 }

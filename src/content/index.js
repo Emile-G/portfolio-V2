@@ -163,12 +163,12 @@ export default {
     links: {
         socialMedia: [
             {
-                title: 'LinkedIn',
-                link: 'https://www.linkedin.com/in/emile-g/',
-            },
-            {
                 title: 'Github',
                 link: 'https://github.com/Emile-G',
+            },
+            {
+                title: 'LinkedIn',
+                link: 'https://www.linkedin.com/in/emile-g/',
             },
             {
                 title: 'Twitter',

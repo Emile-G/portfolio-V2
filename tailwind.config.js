@@ -29,6 +29,7 @@ module.exports = {
     animation: {
       float: 'float 3s infinite',
       refloat: 'refloat 3s infinite',
+      tilt: 'tilt 10s infinite linear',
     },
     keyframes: {
       float: {
@@ -59,7 +60,18 @@ module.exports = {
           animationTimingFunction: 'ease-in-out',
         },
       },
-    }
+      tilt: {
+        '0%, 50%, 100%': {
+          transform: 'rotate(0deg)',
+        },
+        '25%': {
+          transform: 'rotate(1.5deg)',
+        },
+        '75%': {
+          transform: 'rotate(-1.5deg)',
+        },
+      },
+    },
   },
   variants: {
     extend: {},
