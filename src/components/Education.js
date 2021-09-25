@@ -51,7 +51,7 @@ export default function Education() {
                                                         Website :
                                                     </dt>
                                                     <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 underline">
-                                                        <a href={studyMap.webisteData}>
+                                                        <a target="_blank" rel="noopener noreferrer"  href={studyMap.webisteData}>
                                                             {studyMap.website}
                                                         </a>
                                                     </dd>
