@@ -24,7 +24,7 @@ module.exports = {
       serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
       bonheurRoyale: ['Bonheur Royale'],
-      robotoSlab: ['Roboto Slab'],
+      robotoSlab: ['Roboto'],
     },
     animation: {
       float: 'float 3s infinite',

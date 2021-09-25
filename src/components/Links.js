@@ -3,7 +3,7 @@ import content from '../content'
 
 export default function Links() {
     return (
-        <div className="min-h-screen flex flex-col items-center justify-center font-robotoSlab" style={{ background: '#1D3557' }} id="studies">
+        <div className="min-h-screen flex flex-col items-center justify-center font-robotoSlab" style={{ background: '#1D3557' }} id="links">
             <div className="w-11/12 md:max-w-xl text-xl text-center">
                 <div class="w-full">
                     <div className="relative group">
