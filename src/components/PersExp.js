@@ -10,9 +10,9 @@ export default function PersExp() {
             {content.personnalExp.experiences.map((persExp, index) => {
                 return (
                     <div className="mb-3 p-5 md:p-2">
-                        <div class="bg-white rounded-xl shadow-2xl">
-                            <img src={persExp.image} alt="boy with camera" class="rounded-t-xl w-full object-cover" />
-                            <div class="p-5">
+                        <div className="bg-white rounded-xl shadow-md">
+                            <img src={persExp.image} alt="boy with camera" className="rounded-t-xl w-full object-cover" />
+                            <div className="p-5">
                                 <div className="flex-1 ml-2 mb-1 text-lg font-medium divide-x-2 divide-niceRed">
                                     <span className="pr-4">
                                         {persExp.project}
@@ -33,9 +33,9 @@ export default function PersExp() {
                                 <p>{persExp.desc}</p>
                                 <p>{persExp.desc2}</p>
                                 <p>{persExp.desc3}</p>
-                                <div class="text-center">
+                                <div className="text-center">
                                     <a target="_blank" rel="noopener noreferrer" href={persExp.website}>
-                                        <button class="mt-3 rounded-lg px-4 py-2 text-white shadow hover:shadow-xl duration-300" style={{ background: '#E63946' }}>
+                                        <button className="mt-3 rounded-lg px-4 py-2 text-white shadow hover:shadow-xl duration-300" style={{ background: '#E63946' }}>
                                             Go to the demo
                                         </button>
                                     </a>

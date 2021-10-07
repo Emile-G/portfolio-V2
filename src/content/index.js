@@ -130,7 +130,7 @@ export default {
                 desc: 'The "GIE" project is an Arma III team with a player base ranging form 20 years old to 50 years old.',
                 desc2: ' The website plan is to let us manage our team while acting as a presentation board.',
                 desc3: ' (You can find me on it under the nickname "Jack Shinzao").',
-                techUsed: 'Laravel : PHP Framework',
+                techUsed: 'Laravel (PHP Framework)',
             },
         ]
     },
@@ -152,7 +152,7 @@ export default {
                 link: '',
             },
             {
-                name: '"Mesguen" Project (Light Client)',
+                name: '"Mesguen" Project (Thin Client)',
                 desc: 'Project aiming to create a lightweight client based on a specification provides. This web application aims to manage the various tours of the company "Mesguen". (Project in no case related to the company "Mesguen" and any name affiliated to Mesguen).',
                 link: 'https://github.com/Emile-G/PPE_Mesguen/',
             },
