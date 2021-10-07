@@ -2,8 +2,7 @@ export default {
     nav: {
         logo: 'Emile-G',
         links: [
-            { text: 'Work', to: 'mywork' },
-            { text: 'Contact', to: 'mycontact' },
+            { text: 'Resume', to: 'resume' },
         ],
     },
     header: {
@@ -44,7 +43,7 @@ export default {
                 alt: 'Javascript',
             },
         ],
-        desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only`,
+        desc: ` I'm a developer that utilizes PHP/Laravel/Symfony. I have an interest in application creation. Recently, I've been learning and using javascript based frameworks such as Angular, React, Vue and Node. Given a requirements document outlining what the finished product should do I am able to complete the entire application including all backend, front end and database functionality.`,
     },
     studies: {
         study: [
@@ -163,7 +162,7 @@ export default {
             },
             {
                 name: 'Staff tool for "Synesia"',
-                desc: 'Tool to manage warnings from different players, project based on HTML/PHP linked to a MySQL database. (Basic CRUD locked by an authentication system).',
+                desc: 'A tool to manage warnings from different players, project based on HTML/PHP linked to a MySQL database. (Basic CRUD locked by an authentication system).',
                 link: '',
             },
         ]

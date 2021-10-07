@@ -3,15 +3,17 @@ import content from '../content'
 
 export default function Navigation() {
     return (
-        <div style={{background: '#1D3557'}}>
+        <div style={{ background: '#1D3557' }}>
             <div className="flex items-center justify-between w-10/12 mx-auto py-3 text-white font-robotoSlab">
                 <h1 className="text-4xl font-bold font-bonheurRoyale">
-                    {content.nav.logo} 
-                    <span style={{background: '#E63946'}}className="w-3 h-3 rounded-full inline-block ml-1"></span>
-                </h1> 
+                    {content.nav.logo}
+                    <span style={{ background: '#E63946' }} className="w-3 h-3 rounded-full inline-block ml-1"></span>
+                </h1>
                 <div>
-                    {content.nav.links.map((link,index)=>{
-                        return <span key={index} className="text-2xl mr-4">{link.text}</span>
+                    {content.nav.links.map((link, index) => {
+                        return (
+                            <span key={index} className="text-2xl mr-4">{link.text}</span>
+                        );
                     })}
                 </div>
             </div>
