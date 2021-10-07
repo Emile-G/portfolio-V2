@@ -181,6 +181,10 @@ export default {
                 title: 'Twitter',
                 link: 'https://twitter.com/EmileGardent',
             },
+            {
+                title: 'Resume',
+                link: '/resume',
+            },
         ]
     },
 };

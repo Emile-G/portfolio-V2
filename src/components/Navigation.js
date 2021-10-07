@@ -1,5 +1,6 @@
 import React from 'react'
 import content from '../content'
+import { Link } from "react-router-dom";
 
 export default function Navigation() {
     return (
@@ -12,7 +13,9 @@ export default function Navigation() {
                 <div>
                     {content.nav.links.map((link, index) => {
                         return (
-                            <span key={index} className="text-2xl mr-4">{link.text}</span>
+                            <Link to={link.to}>
+                                <span key={index} className="text-2xl mr-4">{link.text}</span>
+                            </Link>
                         );
                     })}
                 </div>
