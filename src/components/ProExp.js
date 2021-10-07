@@ -52,7 +52,7 @@ export default function ProExp() {
                                         </div>
                                         <div className="flex-1 ml-4">
                                             <span>
-                                                {proExp.task2}
+                                                {proExp.task2} 
                                             </span>
                                         </div>
                                     </span>
