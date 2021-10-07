@@ -2,9 +2,11 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    color: {
+    extend: {
+      divideColor: {
+        niceRed: '#E63946',
+      },
     },
-    extend: {},
     fontFamily: {
       sans: [
         'system-ui',
