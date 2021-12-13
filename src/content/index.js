@@ -79,6 +79,18 @@ export default {
     professionalExp: {
         experiences: [
             {
+                postes: 'PHP & Symfony Developer',
+                dates: 'November 2021 - Today',
+                workplace: 'Amiltone',
+                rank: 'Engineer Executive',
+                address: '38 rue Jules VERNE Amphi du forum, 44 700 ORVAULT',
+                website: 'https://amiltone.com/',
+                task1: 'Creating and updating the microsoft ads api connector in order to create, update, delete and read ads in the microsoft adwords platform.',
+                task2: '',
+                techUsed1: 'PHP 7.3 / MySQL / PostgreSQL',
+                techUsed2: 'Symfony : PHP Framework',
+            },
+            {
                 postes: 'PHP Developer',
                 dates: 'January 2021 - June 2021',
                 workplace: 'Solocal',
