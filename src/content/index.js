@@ -79,10 +79,10 @@ export default {
     professionalExp: {
         experiences: [
             {
-                postes: 'Software Engineer',
+                postes: 'PHP & Symfony Developer',
                 dates: 'February 2021 - Today',
                 workplace: 'Capgemini',
-                rank: '',
+                rank: 'Software Engineer',
                 address: 'Capgemini Nantes',
                 website: 'https://capgemini.com/',
                 task1: '',
@@ -98,7 +98,7 @@ export default {
                 address: '38 rue Jules VERNE Amphi du forum, 44 700 ORVAULT',
                 website: 'https://amiltone.com/',
                 task1: 'Creating and updating the microsoft ads api connector in order to create, update, delete and read ads in the microsoft adwords platform.',
-                task2: 'Updating the old Google adswords API to the new Google Ads API to manage ads.',
+                task2: 'Updating the old Google adwords API to the new Google Ads API to manage ads.',
                 techUsed1: 'PHP 7.3 / MySQL / PostgreSQL',
                 techUsed2: 'Symfony : PHP Framework',
             },
